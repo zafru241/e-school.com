@@ -6,3 +6,134 @@
 body{
     font-family: Poppins;
 }
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right,#f0fff0,#f0fff0);
+    padding: 0 !important;
+} 
+.btn-link{
+    background: #21b573;
+    border: none;
+    border-radius: 10px;
+    color:white;
+    padding: 0px 2px;
+    
+}  
+.navbar-brand{
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 40px;
+    background-image: linear-gradient(to right,#f0fff0,#f0fff0); 
+    
+}
+.navbar-nav{
+    padding: o 10px;
+    padding-right: 10px;
+}
+.navbar-nav li a{
+    color: black;
+    font-weight: 600;
+}
+/*.................banner section..........*/
+#banner{
+    background-image: linear-gradient(to right,#f0fff0,#f0fff0);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.promo-title1{
+    color: #FD511A;
+    font-size: small;
+    font-style: normal;
+}
+.promo-title2{
+    font-size: xx-large;
+    color: #21B573;
+}
+
+.btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 33px;
+    color: white;
+    background: #21B573;
+
+
+}
+/*.............services section......*/
+#services{
+    padding: 40px 0px;
+    background: #E5E5E5;
+}
+.service-img{
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 20px 40px rgba(0px, 0px, 0px, 0.1px);
+    
+}
+.services h5{
+    padding: 5%;
+}
+/*............online courses section....*/
+#courses{
+    padding: 40px 0px;
+    background: #E5E5E5;
+}
+.card{
+    padding: 20px 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(0px, 10px, 40px, 0.1px);
+}
+.card-title{
+    font-size: 20;
+    font-style:normal;
+    color: #413960;
+}
+.card-text{
+    font-size: 8;
+    font-style: normal;
+    color: #585859;
+}
+.bd-highlight{
+    padding: 20px 0px;
+    font-size: 10px;
+    color: #585859;
+}
+.text-center{
+    color: #413960;
+}
+/*................................Testiminial........................*/
+
+#testimonial{
+  
+    padding: 80px 0px;
+    background:#E5E5E5;
+}
+
+.img-fluid{
+    width: 100px;
+    height: 100px;
+}
+.testimonial-2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*......................footer....................*/
+#footer{
+    padding: 40px 0px;
+    background-color: #282531;
+    color: white;
+    font: 1em sans-serif;
+
+}
+.footer{
+    text-align: center;
+    padding: 40px 0px;
+}
